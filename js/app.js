@@ -244,9 +244,7 @@ function calculateGasFee() {
   resultDiv.textContent = `Estimated Gas Fee: ${fee.toFixed(6)} ETH`;
 }
   // including congestion, transaction complexity, and gas price fluctuations, and are subject to change.
-if (process.env.NODE_ENV === 'development') {
-  console.info('App.js loaded successfully');
-}
+
 resultDiv.textContent = `Estimated Gas Fee: ${fee.toFixed(6)} ETH`;
 }
 
