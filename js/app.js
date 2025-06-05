@@ -230,6 +230,11 @@ function setupEventListeners() {
 
 // رسالة تحميل أثناء جلب البيانات
 function showLoadingMessage() {
+  const resultDiv = document.getElementById('gasResult');
+  if (resultDiv) {
+    resultDiv.textContent = "Loading...";
+  }
+}
 // 8. دالة لحساب الغاز
 function calculateGasFee() {
   const ethInput = document.getElementById('ethAmount').value.trim();
