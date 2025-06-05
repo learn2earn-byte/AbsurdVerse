@@ -247,7 +247,7 @@ function calculateGasFee() {
 if (process.env.NODE_ENV === 'development') {
   console.info('App.js loaded successfully');
 }
-  resultDiv.textContent = `Estimated Gas Fee: ${fee.toFixed(6)} ETH`;
+resultDiv.textContent = `Estimated Gas Fee: ${fee.toFixed(6)} ETH`;
 }
 
 console.info('App.js loaded successfully');
