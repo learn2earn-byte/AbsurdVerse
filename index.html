@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://zora.co; script-src 'self' https://absurdverse.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AbsurdVerse</title>
+  <!-- SEO Meta Description -->
+  <meta name="description" content="Explore AbsurdVerse: Surreal NFT creatures from a chaotic multiverse. Absurd art meets Web3 storytelling." />
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="AbsurdVerse" />
+  <meta property="og:description" content="Surreal NFT creatures from a chaotic multiverse. Absurd art meets Web3 storytelling." />
+  <meta property="og:image" content="http://localhost:8000/images/sefnar.png" />
+  <meta property="og:url" content="https://absurdverse.com" />
+  <meta property="og:type" content="website" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@AbsurdCrafter" />
+  <meta name="twitter:title" content="AbsurdVerse">
+  <meta name="twitter:description" content="Surreal NFT creatures from a chaotic multiverse.">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://absurdverse.com" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <noscript><link rel="stylesheet" href="styles.css"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "AbsurdVerse",
+    "description": "Surreal NFT creatures from a chaotic multiverse.",
+    "url": "http://localhost:8000",
+    "creator": {
+      "@type": "Person",
+      "name": "AbsurdCrafter"
+    }
+  }
+  </script>
+  <!-- Animation moved to external stylesheet -->
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to AbsurdVerse 🎭</h1>
+      <p>Surreal NFT creatures from a chaotic multiverse. Absurd art meets Web3 storytelling.</p>
+      <a href="https://zora.co/@absurdcrafter" class="button">Explore on Zora</a>
+    </div>
+  </header>
+
+  <!-- Featured NFT -->
+  <main class="featured-section">
+    <h2>Featured Creatures</h2>
+    <div class="featured-nft">
+      <img src="images/sefnar.png" alt="Image of Sefnar, the Gas Keeper NFT from AbsurdVerse collection" class="featured-image" loading="lazy" width="600" height="400">
+      <div class="nft-details">
+        <h3>Sefnar, the Gas Keeper</h3>
+        <div class="story-preview">
+          <p>"<span id="story-excerpt">A whimsical glowing blue creature...</span>"</p>
+          <button class="story-btn" aria-label="Read full story about Sefnar">Read Full Story →</button>
+        </div>
+        <a href="https://zora.co/collection/sefnar" class="button secondary" aria-label="View Sefnar on Zora">View on Zora</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- NFT Gallery -->
+  <section class="gallery-section">
+    <h2>NFT Collection</h2>
+    <div class="image-container">
+      <!-- سيتم ملؤه بواسطة JavaScript (Will be populated by JavaScript) -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-content">
+      <h2>About AbsurdVerse</h2>
+      <p>AbsurdVerse is a collection of surreal NFT creatures born from a chaotic multiverse, blending absurd art with Web3 storytelling.</p>
+      <!-- سيتم ملؤه بواسطة JavaScript (Will be populated by JavaScript using the populateGallery function in app.js) -->
+  </section>
+
+  <!-- Calculator Section -->
+  <section class="calculator-section">
+    <div class="calculator">
+      <input type="text" id="ethAmount" placeholder="Enter ETH amount">
+      <button id="estimateFeesButton">Estimate Fees</button>
+      <div class="result" id="gasResult"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="currentYear"></span> AbsurdVerse. All rights reserved.</p>
+    <a href="https://x.com/AbsurdCrafter" class="social-link" id="socialLink">Follow us on X (formerly Twitter)</a>
+  </footer>
+
+  <!-- Story Modal -->
+  <div id="storyModal">
+    <div class="modal-content">
+      <span class="close" aria-label="Close modal" tabindex="0">&times;</span>
+      <h2 id="nftTitle"></h2>
+      <div id="storySections"></div>
+      <div class="traits-container"></div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

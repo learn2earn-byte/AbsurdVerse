@@ -1,0 +1,18 @@
+{
+  "nfts": [
+    {
+      "id": "sefnar",
+      "title": "Sefnar, the Gas Keeper",
+      "story": "Guardian of Ethereum's hidden fees...",
+      "traits": ["Ethereum", "Mystical", "Calculator"],
+      "link": "https://zora.co/collection/sefnar"
+    },
+    {
+      "id": "voidling",
+      "title": "Voidling of Chaos",
+      "story": "Born from the uniswap liquidity pools...",
+      "traits": ["DeFi", "Shadow", "Void"],
+      "link": "https://zora.co/collection/voidling"
+    }
+  ]
+}

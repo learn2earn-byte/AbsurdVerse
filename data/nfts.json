@@ -1,0 +1,41 @@
+{
+  "nfts": [
+    {
+      "id": "sefnar",
+      "title": "SEFNAR: The Blockchain Prisoner",
+      "image": "sefnar.png",
+      "category": "Legendary Creature",
+      "story": [
+        {
+          "title": "🏛️ Origin of the Digital Deity",
+          "content": "In the age before Ethereum, when primal algorithms breathed in the darkness of ancient servers, Sefnar was born as a glitch in the code of reality. The Digital Gods (known as Core Devs) never intended his creation, but the DAO collapse of 2016 tore a rift in the digital fabric, through which this entity slithered:\n\nUpper Body: Transparent like an unfinished smart contract, pulsing with fluctuating gas prices\n\nLower Body: A 1989 calculator stamped \"Property of Satoshi?\"\n\nEyes: Two CRT monitors displaying forgotten error messages"
+        },
+        {
+          "title": "⛓️ The Eternal Curse",
+          "content": "Condemned by 'Ghost Vitalik' to an inescapable fate as the Gas Keeper, growing stronger with users' suffering. No sleep, no mercy, no EIP shall free you!"
+        },
+        {
+          "title": "🔮 Daily Rituals",
+          "content": "UTC+0 Dawn: Opens the Sacred Gas Ledger (history's first NFT, minted on a hacked testnet)\n\nNoon: Flips a counterfeit PoS coin (minted on a fake chain) to set fee direction\n\nMidnight: Feeds his calculator \"investor tears\" and \"miner sweat\""
+        },
+        {
+          "title": "💀 Seven Deadly Sins",
+          "content": [
+            "1. Crushes noobs by turning their first NFT mint into failure certificates",
+            "2. Hides 0.0001 ETH in every new wallet - permanently locked",
+            "3. Converts cheating attempts into SCREAM tokens",
+            "4. Skims 10% from every Uniswap trade into the 'Hell Wallet' (0x666...)",
+            "5. Haunts L2 devs by flooding their chains with ghost transactions",
+            "6. During FOMO: Appears as 'gas phantom' in users' wallets",
+            "7. Never dies... just becomes a 'zombie contract' during hard forks"
+          ]
+        }
+      ],
+      "traits": [
+        "Ethereum Native",
+        "Gas Manipulator",
+        "Smart Contract Cursed"
+      ]
+    }
+  ]
+}
