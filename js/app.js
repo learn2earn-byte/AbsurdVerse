@@ -201,6 +201,7 @@ function renderStory(nft, storyContainerId = 'storySections', traitsContainerSel
 // 5. تهيئة الصفحة عند التحميل
 document.addEventListener('DOMContentLoaded', async () => {
   showLoadingMessage();
+  const resultDiv = document.getElementById('resultDiv');
   const [featuredStoryResult, nfts] = await Promise.all([loadFeaturedStory(), loadNFTs()]);
   if (nfts && nfts.length > 0) {
     displayNFTs(nfts);
