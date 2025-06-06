@@ -36,6 +36,9 @@ body {
 .container {
   padding: 10px;
   text-align: center;
+  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 .container .hero {
