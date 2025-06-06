@@ -41,6 +41,12 @@ body {
   width: -moz-available;
 }
 
+.w-stretch {
+  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
 .container .hero {
   padding: 60px 20px;
   background: var(--primary-gradient);
