@@ -36,23 +36,15 @@ body {
 .container {
   padding: 10px;
   text-align: center;
-  width: 100%;
-  width: -webkit-fill-available;
-  width: -moz-available;
 }
 
-.w-stretch {
+.full-width {
   width: 100%;
-  width: -webkit-fill-available;
-  width: -moz-available;
-}
-
-.container .hero {
   padding: 60px 20px;
   background: var(--primary-gradient);
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeInScale 2s ease-in-out;
+  will-change: transform;
 }
-
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
